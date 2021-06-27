@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "586573973393",
+    "firebase_url": "https://admitone-b2716.firebaseio.com",
+    "project_id": "admitone-b2716",
+    "storage_bucket": "admitone-b2716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586573973393:android:5e21964973e28e99153c30",
+        "android_client_info": {
+          "package_name": "com.ednagege.admitone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586573973393-v7uscjrlqi80rjtth9gol2f1tpi1c7bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-YvOX3lWrCfQkerwKxuE7hWWdnybY5PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586573973393-v7uscjrlqi80rjtth9gol2f1tpi1c7bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

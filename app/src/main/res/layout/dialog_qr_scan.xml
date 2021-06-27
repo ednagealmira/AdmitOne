@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/shape_rectangle_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_qr_code"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/ic_qr_code" />
+
+    <TextView
+        android:id="@+id/tv_scan_qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="@string/please_scan_qr" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/shape_rectangle_pink"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:text="@string/close"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp" />
+
+</LinearLayout>
